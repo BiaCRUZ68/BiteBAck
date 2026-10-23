@@ -1,7 +1,7 @@
 # Biteback — History Has a Taste
 ## Authoritative Video Production Playbook
 
-**Playbook version:** 1.0.0  
+**Playbook version:** 1.1.0  
 **Status:** Active default for all Biteback videos until the channel owner explicitly updates it.  
 **Companion private plugin:** [History Behind the Bite](https://chatgpt.com/plugins/plugins_6ad911a995ac81918370d1d73551f0ff) (v1.1.0)
 
@@ -22,10 +22,10 @@ This repository is the source of truth for channel production rules. Read `docs/
 - Video prompts: ASMR and natural ambience only, synchronized to visible action. **No narrator, voice-over, dialogue, speech, lip-sync, or music.**
 - Animation prompts require visible physical action with timing and cause/effect; camera movement is secondary.
 - Compose in full 16:9; main subject and action must be large, legible, and visually important. Avoid tiny people or an empty distant city.
-- Alex and Lia are silent visual investigators. When they appear, name them as Actor 1: Alex / Actor 2: Lia, include the full descriptions, and explicitly require the attached official character reference image. Never force them into a historical reconstruction where they do not belong.
+- Alex and Lia are silent visual investigators. When they appear, name them as Actor 1: Alex / Actor 2: Lia, include the full descriptions, and explicitly require the attached official character reference image. **Repeat the full applicable character description inside every individual image prompt AND every individual video prompt.** If both appear, include both full descriptions in both prompts. Do not rely on a separate master block or a previous prompt. Do not force them into a historical reconstruction where they do not belong.
 - Clearly distinguish documented evidence from plausible reconstruction, disputed claims, and unknowns. Never invent historical recipes, citations, quotes, or details.
 
-See [the complete workflow](docs/BITEBACK_WORKFLOW.md), [character bible](docs/CHARACTER_BIBLE.md), [storyboard template](docs/STORYBOARD_TEMPLATE.md), [evidence ledger](docs/EVIDENCE_LEDGER_TEMPLATE.md), and [QA checklist](docs/QA_CHECKLIST.md).
+See [the complete workflow](docs/BITEBACK_WORKFLOW.md), [character bible](docs/CHARACTER_BIBLE.md), [mandatory character prompt lock](docs/CHARACTER_PROMPT_LOCK.md), [storyboard template](docs/STORYBOARD_TEMPLATE.md), [evidence ledger](docs/EVIDENCE_LEDGER_TEMPLATE.md), and [QA checklist](docs/QA_CHECKLIST.md).
 
 ## Separate playbook in this repository
 The automotive Reels workflow is a separate project and does not change Biteback's historical-food production rules:
@@ -36,4 +36,5 @@ The automotive Reels workflow is a separate project and does not change Biteback
 Changes to permanent rules require an explicit request from the channel owner. Update the playbook version and append a dated changelog entry. Episode-specific choices do not silently change the permanent workflow.
 
 ### Changelog
+- 1.1.0 — 2026-10-23: Added mandatory full character descriptions inside every individual image and video prompt whenever Alex and/or Lia appears; made each prompt independently copy-ready and strengthened the official-reference and continuity requirements.
 - 1.0.0 — 2026-10-23: Initial authoritative production workflow, full Alex/Lia consistency rules, narration-mapped dual prompts, and ASMR-only video generation standard.
