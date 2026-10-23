@@ -27,6 +27,10 @@ This repository is the source of truth for channel production rules. Read `docs/
 
 See [the complete workflow](docs/BITEBACK_WORKFLOW.md), [character bible](docs/CHARACTER_BIBLE.md), [storyboard template](docs/STORYBOARD_TEMPLATE.md), [evidence ledger](docs/EVIDENCE_LEDGER_TEMPLATE.md), and [QA checklist](docs/QA_CHECKLIST.md).
 
+## Separate playbook in this repository
+The automotive Reels workflow is a separate project and does not change Biteback's historical-food production rules:
+- [Centro Automotivo São Luiz — Reels Storytelling Playbook](docs/CENTRO_AUTOMOTIVO_SAO_LUIZ_REELS_PLAYBOOK.md)
+
 ## Versioning
 Changes to permanent rules require an explicit request from the channel owner. Update the playbook version and append a dated changelog entry. Episode-specific choices do not silently change the permanent workflow.
 
