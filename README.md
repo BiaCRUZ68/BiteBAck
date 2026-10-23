@@ -29,7 +29,8 @@ See [the complete workflow](docs/BITEBACK_WORKFLOW.md), [character bible](docs/C
 
 ## Separate playbook in this repository
 The automotive Reels workflow is a separate project and does not change Biteback's historical-food production rules:
-- [Centro Automotivo São Luiz — Reels Storytelling Playbook](docs/CENTRO_AUTOMOTIVO_SAO_LUIZ_REELS_PLAYBOOK.md)
+- [Centro Automotivo São Luiz — Reels Storytelling Playbook](docs/CENTRO_AUTOMOTIVO_SAO_LUIZ_REELS_PLAYBOOK.md) (v1.1.0; current automotive trend research + max. 119 spoken-dialogue characters per scene)  
+- **Private ChatGPT plugin:** [Centro Automotivo São Luiz Reels](https://chatgpt.com/plugins/plugins_6adbacc0e39081919146f7a999892dbc) (v1.0.0)
 
 ## Versioning
 Changes to permanent rules require an explicit request from the channel owner. Update the playbook version and append a dated changelog entry. Episode-specific choices do not silently change the permanent workflow.
